@@ -65,6 +65,47 @@
         padding: 0 15px;
     }
     
+    /* Header styles for mobile */
+    .header-area {
+        padding: 10px 0;
+    }
+    
+    .logo img {
+        max-width: 140px;
+    }
+    
+    .header-btn {
+        display: none;
+    }
+    
+    .mobile_menu {
+        padding: 10px 0;
+    }
+    
+    .navbar-toggler {
+        padding: 4px 8px;
+        font-size: 1rem;
+    }
+    
+    .navbar-collapse {
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    .navbar-nav {
+        margin-top: 5px;
+    }
+    
+    .nav-item {
+        margin: 3px 0;
+    }
+    
+    .nav-item a {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    
+    /* Rest of mobile styles */
     .hero-content {
         text-align: center;
         padding: 50px 0;
@@ -134,26 +175,6 @@
     .social-links {
         text-align: center;
         margin-top: 15px;
-    }
-    
-    /* Navigation for mobile */
-    .navbar-toggler {
-        display: block;
-    }
-    
-    .navbar-collapse {
-        background: #fff;
-        padding: 15px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    
-    .navbar-nav {
-        margin-top: 10px;
-    }
-    
-    .nav-item {
-        margin: 5px 0;
     }
     
     /* Things to do section */
@@ -266,5 +287,23 @@
     
     .dining-caption h3 {
         font-size: 1.3rem;
+    }
+    
+    /* Extra small header adjustments */
+    .logo img {
+        max-width: 120px;
+    }
+    
+    .header-area {
+        padding: 8px 0;
+    }
+    
+    .navbar-toggler {
+        padding: 3px 6px;
+    }
+    
+    .nav-item a {
+        padding: 6px 12px;
+        font-size: 0.85rem;
     }
 }
