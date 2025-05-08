@@ -78,13 +78,40 @@
         display: none;
     }
     
-    .mobile_menu {
-        padding: 5px 0;
+    /* Mobile menu adjustments */
+    .main-header {
+        position: relative;
+        min-height: 60px;
+        display: flex;
+        align-items: center;
     }
     
-    .navbar-toggler {
-        padding: 3px 6px;
-        font-size: 0.9rem;
+    .mobile_menu {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0;
+        margin-top: -5px;
+    }
+    
+    .slicknav_menu {
+        padding: 0;
+        background: transparent;
+    }
+    
+    .slicknav_btn {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+    }
+    
+    .slicknav_icon {
+        margin: 0;
+    }
+    
+    .slicknav_icon-bar {
+        background-color: #000;
     }
     
     .navbar-collapse {
