@@ -67,11 +67,11 @@
     
     /* Header styles for mobile */
     .header-area {
-        padding: 10px 0;
+        padding: 5px 0;
     }
     
     .logo img {
-        max-width: 140px;
+        max-width: 70px;
     }
     
     .header-btn {
@@ -79,30 +79,30 @@
     }
     
     .mobile_menu {
-        padding: 10px 0;
+        padding: 5px 0;
     }
     
     .navbar-toggler {
-        padding: 4px 8px;
-        font-size: 1rem;
+        padding: 3px 6px;
+        font-size: 0.9rem;
     }
     
     .navbar-collapse {
-        padding: 10px;
-        margin-top: 5px;
+        padding: 8px;
+        margin-top: 3px;
     }
     
     .navbar-nav {
-        margin-top: 5px;
+        margin-top: 3px;
     }
     
     .nav-item {
-        margin: 3px 0;
+        margin: 2px 0;
     }
     
     .nav-item a {
-        padding: 8px 15px;
-        font-size: 0.9rem;
+        padding: 6px 12px;
+        font-size: 0.85rem;
     }
     
     /* Rest of mobile styles */
@@ -291,19 +291,19 @@
     
     /* Extra small header adjustments */
     .logo img {
-        max-width: 120px;
+        max-width: 60px;
     }
     
     .header-area {
-        padding: 8px 0;
+        padding: 4px 0;
     }
     
     .navbar-toggler {
-        padding: 3px 6px;
+        padding: 2px 4px;
     }
     
     .nav-item a {
-        padding: 6px 12px;
-        font-size: 0.85rem;
+        padding: 4px 10px;
+        font-size: 0.8rem;
     }
 }
