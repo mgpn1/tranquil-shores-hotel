@@ -1,32 +1,208 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
-
+    .container {
+        max-width: 1140px;
+    }
 }
-
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
-
+    .container {
+        max-width: 960px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
 }
 
- 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
+    .container {
+        max-width: 720px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .room-card {
+        margin-bottom: 30px;
+    }
+    
+    .testimonial-card {
+        margin-bottom: 30px;
+    }
+    
+    .footer-widget {
+        margin-bottom: 30px;
+    }
 }
 
- 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
- 
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .hero-content {
+        text-align: center;
+        padding: 50px 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .room-card {
+        margin-bottom: 25px;
+    }
+    
+    .room-card img {
+        height: 200px;
+    }
+    
+    .room-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .testimonial-card {
+        margin-bottom: 25px;
+        padding: 20px;
+    }
+    
+    .testimonial-card img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .testimonial-card p {
+        font-size: 0.9rem;
+    }
+    
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    
+    .footer-widget h3 {
+        font-size: 1.3rem;
+    }
+    
+    .footer-widget p {
+        font-size: 0.9rem;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    
+    .social-links {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    /* Navigation for mobile */
+    .navbar-toggler {
+        display: block;
+    }
+    
+    .navbar-collapse {
+        background: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    /* Things to do section */
+    .things-to-do-card {
+        margin-bottom: 25px;
+    }
+    
+    .things-to-do-card img {
+        height: 200px;
+    }
+    
+    .things-to-do-card h3 {
+        font-size: 1.3rem;
+    }
+    
+    .things-to-do-card p {
+        font-size: 0.9rem;
+    }
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .room-card img {
+        height: 250px;
+    }
+    
+    .things-to-do-card img {
+        height: 250px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 479px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .room-card img {
+        height: 180px;
+    }
+    
+    .things-to-do-card img {
+        height: 180px;
+    }
+    
+    .testimonial-card img {
+        width: 70px;
+        height: 70px;
+    }
 }
